@@ -1,0 +1,857 @@
+2022-09-15T14:27:07Z[36m [INFO][SMF][CFG] [0mSMF config version [1.0.2]
+2022-09-15T14:27:07Z[36m [INFO][SMF][CFG] [0mUE-Routing config version [1.0.1]
+2022-09-15T14:27:07Z[36m [INFO][SMF][Init] [0mSMF Log level is set to [trace] level
+2022-09-15T14:27:07Z[36m [INFO][LIB][NAS] [0mset log level : info
+2022-09-15T14:27:07Z[36m [INFO][LIB][NAS] [0mset report call : false
+2022-09-15T14:27:07Z[36m [INFO][LIB][NGAP] [0mset log level : trace
+2022-09-15T14:27:07Z[36m [INFO][LIB][NGAP] [0mset report call : false
+2022-09-15T14:27:07Z[36m [INFO][LIB][Aper] [0mset log level : trace
+2022-09-15T14:27:07Z[36m [INFO][LIB][Aper] [0mset report call : false
+2022-09-15T14:27:07Z[36m [INFO][LIB][PFCP] [0mset log level : info
+2022-09-15T14:27:07Z[36m [INFO][LIB][PFCP] [0mset report call : false
+2022-09-15T14:27:07Z[36m [INFO][SMF][App] [0msmf
+2022-09-15T14:27:07Z[36m [INFO][SMF][App] [0mSMF version:  
+	free5GC version: v3.1.1
+	build time:      2022-05-25T14:33:39Z
+	commit hash:     84c979a3
+	commit time:     2022-04-09T08:38:26Z
+	go version:      go1.14.4 linux/amd64
+2022-09-15T14:27:07Z[36m [INFO][SMF][CTX] [0msmfconfig Info: Version[1.0.2] Description[SMF initial local configuration]
+2022-09-15T14:27:07Z[36m [INFO][SMF][CTX] [0mEndpoints: [upf.free5gc.org]
+2022-09-15T14:27:07Z[36m [INFO][SMF][Init] [0mServer started
+2022-09-15T14:27:07Z[36m [INFO][SMF][Init] [0mSMF Registration to NRF {0a1d5a99-9e7a-46bf-9c7b-c24f3a75716c SMF REGISTERED 0 0xc000532380 0xc0005323c0 [] []   [smf.free5gc.org] [] <nil> [] [] <nil> 0 0 0 area1 <nil> <nil> <nil> <nil> 0xc0000bc9c0 <nil> <nil> <nil> <nil> <nil> map[] <nil> false 0xc000532200 false false []}
+2022-09-15T14:27:07Z[36m [INFO][SMF][PFCP] [0mListen on 10.100.200.14:8805
+2022-09-15T14:27:07Z[36m [INFO][SMF][App] [0mSend PFCP Association Request to UPF[upf.free5gc.org](10.100.200.2)
+2022-09-15T14:27:07Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [1]
+2022-09-15T14:27:07Z[36m [INFO][SMF][PFCP] [0mIn HandlePfcpAssociationSetupResponse
+2022-09-15T14:27:07Z[36m [INFO][SMF][PFCP] [0mHandle PFCP Association Setup Response with NodeID[10.100.200.2]
+2022-09-15T14:27:07Z[37m [TRAC][SMF][CTX] [0mRetrieveUPF - upfNodeIdIP:[10.100.200.2], nodeIdIP:[10.100.200.2]
+2022-09-15T14:27:07Z[36m [INFO][SMF][PFCP] [0mUPF(10.100.200.2)[{internet}] setup association
+2022-09-15T14:28:18Z[36m [INFO][SMF][PduSess] [0mReceive Create SM Context Request
+2022-09-15T14:28:18Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextCreate
+2022-09-15T14:28:18Z[37m [TRAC][SMF][CTX] [0mSMContextState Change State:  ActivePending
+2022-09-15T14:28:18Z[36m [INFO][SMF][PduSess] [0mSend NF Discovery Serving UDM Successfully
+2022-09-15T14:28:18Z[37m [DEBU][SMF][CTX] [0mcheck start UPF: UPF
+2022-09-15T14:28:18Z[37m [DEBU][SMF][CTX] [0mcheck start UEIPPool(10.60.0.0/16)
+2022-09-15T14:28:18Z[36m [INFO][SMF][CTX] [0mAllocated UE IP address: 10.60.0.1
+2022-09-15T14:28:18Z[36m [INFO][SMF][CTX] [0mSelected UPF: UPF
+2022-09-15T14:28:18Z[36m [INFO][SMF][PduSess] [0mUE[imsi-001010000000012] PDUSessionID[1] IP[10.60.0.1]
+2022-09-15T14:28:18Z[36m [INFO][SMF][GSM] [0mIn HandlePDUSessionEstablishmentRequest
+2022-09-15T14:28:18Z[36m [INFO][NAS][Convert] [0mProtocolOrContainerList:  [0xc000408aa0 0xc000408b00 0xc000408b40 0xc000408ba0 0xc000408be0 0xc000408c20 0xc000408c60 0xc000408ca0]
+2022-09-15T14:28:18Z[36m [INFO][SMF][GSM] [0mProtocol Configuration Options
+2022-09-15T14:28:18Z[36m [INFO][SMF][GSM] [0m&{[0xc000408aa0 0xc000408b00 0xc000408b40 0xc000408ba0 0xc000408be0 0xc000408c20 0xc000408c60 0xc000408ca0]}
+2022-09-15T14:28:18Z[37m [TRAC][SMF][GSM] [0mContainer ID:  32801
+2022-09-15T14:28:18Z[37m [TRAC][SMF][GSM] [0mContainer Length:  16
+2022-09-15T14:28:18Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type InternetProtocolControlProtocolUL
+2022-09-15T14:28:18Z[37m [TRAC][SMF][GSM] [0mContainer ID:  13
+2022-09-15T14:28:18Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:28:18Z[37m [TRAC][SMF][GSM] [0mContainer ID:  10
+2022-09-15T14:28:18Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:28:18Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type IPAddressAllocationViaNASSignallingUL
+2022-09-15T14:28:18Z[37m [TRAC][SMF][GSM] [0mContainer ID:  5
+2022-09-15T14:28:18Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:28:18Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type MSSupportOfNetworkRequestedBearerControlIndicatorUL
+2022-09-15T14:28:18Z[37m [TRAC][SMF][GSM] [0mContainer ID:  16
+2022-09-15T14:28:18Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:28:18Z[37m [TRAC][SMF][GSM] [0mContainer ID:  17
+2022-09-15T14:28:18Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:28:18Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type MSSupportOfLocalAddressInTFTIndicatorUL
+2022-09-15T14:28:18Z[37m [TRAC][SMF][GSM] [0mContainer ID:  35
+2022-09-15T14:28:18Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:28:18Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type QoSRulesWithTheLengthOfTwoOctetsSupportIndicatorUL
+2022-09-15T14:28:18Z[37m [TRAC][SMF][GSM] [0mContainer ID:  36
+2022-09-15T14:28:18Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:28:18Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type QoSFlowDescriptionsWithTheLengthOfTwoOctetsSupportIndicatorUL
+2022-09-15T14:28:18Z[36m [INFO][SMF][PduSess] [0mPCF Selection for SMContext SUPI[imsi-001010000000012] PDUSessionID[1]
+2022-09-15T14:28:18Z[37m [TRAC][SMF][PduSess] [0mIn ApplySmPolicyFromDecision
+2022-09-15T14:28:18Z[37m [DEBU][SMF][PduSess] [0mInstall SessionRule[SessRuleId-1]
+2022-09-15T14:28:18Z[37m [TRAC][SMF][PduSess] [0mEnd of ApplySmPolicyFromDecision
+2022-09-15T14:28:18Z[36m [INFO][SMF][PduSess] [0mSUPI[imsi-001010000000012] has no pre-config route
+2022-09-15T14:28:18Z[37m [TRAC][SMF][PduSess] [0mIn AllocateLocalSEIDForDataPath
+2022-09-15T14:28:18Z[37m [TRAC][SMF][PduSess] [0mNodeIDtoIP:  10.100.200.2
+2022-09-15T14:28:18Z[37m [TRAC][SMF][PduSess] [0mIn ActivateTunnelAndPDR
+2022-09-15T14:28:18Z[37m [TRAC][SMF][PduSess] [0mDataPath Meta Information
+Activated: false
+IsDefault Path: true
+Has Braching Point: false
+Destination IP: 
+Destination Port: 
+DataPath Routing Information
+1th Node in the Path
+Current UPF IP: 10.100.200.2
+Previous UPF IP: None
+Next UPF IP: None
+2022-09-15T14:28:18Z[37m [TRAC][SMF][PduSess] [0mCurrent DP Node IP:  10.100.200.2
+2022-09-15T14:28:18Z[37m [TRAC][SMF][CTX] [0mIn ActivateUpLinkTunnel
+2022-09-15T14:28:18Z[37m [TRAC][SMF][CTX] [0mCalculate  10.100.200.2:8805
+2022-09-15T14:28:18Z[37m [TRAC][SMF][PduSess] [0mCurrent DP Node IP:  10.100.200.2
+2022-09-15T14:28:18Z[37m [TRAC][SMF][PduSess] [0mBefore DLPDR OuterHeaderCreation
+2022-09-15T14:28:18Z[36m [INFO][SMF][Consumer] [0mSendNFDiscoveryServingAMF ok
+2022-09-15T14:28:18Z[37m [TRAC][SMF][PduSess] [0mSend NF Discovery Serving AMF successfully
+2022-09-15T14:28:18Z[37m [TRAC][SMF][PduSess] [0m[SMF] Send SendPfcpSessionEstablishmentRequest
+2022-09-15T14:28:18Z[37m [TRAC][SMF][PduSess] [0mSend to addr  10.100.200.2:8805
+2022-09-15T14:28:18Z[36m [INFO][SMF][GIN] [0m| 201 |    10.100.200.9 | POST    | /nsmf-pdusession/v1/sm-contexts |
+2022-09-15T14:28:18Z[36m [INFO][SMF][PFCP] [0mIn HandlePfcpSessionEstablishmentResponse
+2022-09-15T14:28:18Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [2]
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Length(4) of "SEQUENCE OF"  with Size Range(0..65535) (marshal.go:550)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 4 with range 65536 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mAligning 7 bits (marshal.go:29)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  7 bits, byteLen(after): 1, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put 16 bits, byteLen(after): 3, bitsOffset(after): 0, value: 0x0004] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding  "SEQUENCE OF" struct PDUSessionResourceSetupRequestTransferIEs with len(4) (marshal.go:560)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 130 with range 65536 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put 16 bits, byteLen(after): 5, bitsOffset(after): 0, value: 0x0082] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..2) (marshal.go:497)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 3 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 6, bitsOffset(after): 2, value: 0x00] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Present index of OpenType is 1  (marshal.go:730)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.PDUSessionAggregateMaximumBitRate to temp RawData (marshal.go:591)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mputting optional(1), optionalPresents is 0 (marshal.go:708)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 2, value: 0x00] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting value Extension bit (marshal.go:389)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER with Value Range(0..4000000000000) (marshal.go:397)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 3, value: 0x00] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER Length 4-1 in 3 bits (marshal.go:461)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  3 bits, byteLen(after): 1, bitsOffset(after): 6, value: 0x60] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER 100000000 with 4 bytes (marshal.go:466)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mAligning 2 bits (marshal.go:29)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 1, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put 32 bits, byteLen(after): 5, bitsOffset(after): 0, value: 0x05f5e100] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting value Extension bit (marshal.go:389)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER with Value Range(0..4000000000000) (marshal.go:397)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 6, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER Length 4-1 in 3 bits (marshal.go:461)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  3 bits, byteLen(after): 6, bitsOffset(after): 4, value: 0x60] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER 200000000 with 4 bytes (marshal.go:466)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mAligning 4 bits (marshal.go:29)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  4 bits, byteLen(after): 6, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put 32 bits, byteLen(after): 10, bitsOffset(after): 0, value: 0x0bebc200] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mField "IEExtensions" in ngapType.PDUSessionAggregateMaximumBitRate is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.PDUSessionAggregateMaximumBitRate RawData : 0x0c05f5e100300bebc200(10 bytes) (marshal.go:597)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mAligning 6 bits (marshal.go:29)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  6 bits, byteLen(after): 6, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Length of Value : 10 (marshal.go:169)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 7, bitsOffset(after): 0, value: 0x0a] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Part of OpenType RawData size 10 (marshal.go:612)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put 80 bits, byteLen(after): 17, bitsOffset(after): 0, value: 0x0c05f5e100300bebc200] (marshal.go:618)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType RawData (length = 10): 0x0c05f5e100300bebc200 (marshal.go:619)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType *ngapType.PDUSessionAggregateMaximumBitRate (marshal.go:630)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 139 with range 65536 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put 16 bits, byteLen(after): 19, bitsOffset(after): 0, value: 0x008b] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..2) (marshal.go:497)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 3 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 20, bitsOffset(after): 2, value: 0x00] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Present index of OpenType is 2  (marshal.go:730)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.UPTransportLayerInformation to temp RawData (marshal.go:591)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Present index of CHOICE  1 - 1 (marshal.go:582)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 2 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 2, value: 0x00] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mputting optional(1), optionalPresents is 0 (marshal.go:708)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 3, value: 0x00] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting size Extension Value (marshal.go:198)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 4, value: 0x00] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 31 with range 160 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 2, bitsOffset(after): 4, value: 0x1f] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding BIT STRING size 32 (marshal.go:254)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mAligning 4 bits (marshal.go:29)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  4 bits, byteLen(after): 2, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put 32 bits, byteLen(after): 6, bitsOffset(after): 0, value: 0x0a64c802] (marshal.go:260)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoded BIT STRING (length = 32): 0x0a64c802 (marshal.go:261)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding OCTET STRING size 4 (marshal.go:314)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put 32 bits, byteLen(after): 10, bitsOffset(after): 0, value: 0x00000001] (marshal.go:318)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoded OCTET STRING (length = 4): 0x00000001 (marshal.go:323)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mField "IEExtensions" in ngapType.GTPTunnel is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.UPTransportLayerInformation RawData : 0x01f00a64c80200000001(10 bytes) (marshal.go:597)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mAligning 6 bits (marshal.go:29)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  6 bits, byteLen(after): 20, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Length of Value : 10 (marshal.go:169)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 21, bitsOffset(after): 0, value: 0x0a] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Part of OpenType RawData size 10 (marshal.go:612)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put 80 bits, byteLen(after): 31, bitsOffset(after): 0, value: 0x01f00a64c80200000001] (marshal.go:618)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType RawData (length = 10): 0x01f00a64c80200000001 (marshal.go:619)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType *ngapType.UPTransportLayerInformation (marshal.go:630)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 134 with range 65536 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put 16 bits, byteLen(after): 33, bitsOffset(after): 0, value: 0x0086] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..2) (marshal.go:497)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 3 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 34, bitsOffset(after): 2, value: 0x00] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Present index of OpenType is 5  (marshal.go:730)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.PDUSessionType to temp RawData (marshal.go:591)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..4) (marshal.go:497)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 5 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  3 bits, byteLen(after): 1, bitsOffset(after): 4, value: 0x00] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.PDUSessionType RawData : 0x00(1 bytes) (marshal.go:597)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mAligning 6 bits (marshal.go:29)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  6 bits, byteLen(after): 34, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Length of Value : 1 (marshal.go:169)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 35, bitsOffset(after): 0, value: 0x01] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Part of OpenType RawData size 1 (marshal.go:612)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 36, bitsOffset(after): 0, value: 0x00] (marshal.go:618)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType RawData (length = 1): 0x00 (marshal.go:619)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType *ngapType.PDUSessionType (marshal.go:630)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 136 with range 65536 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put 16 bits, byteLen(after): 38, bitsOffset(after): 0, value: 0x0088] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..2) (marshal.go:497)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 3 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 39, bitsOffset(after): 2, value: 0x00] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Present index of OpenType is 8  (marshal.go:730)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.QosFlowSetupRequestList to temp RawData (marshal.go:591)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Length(1) of "SEQUENCE OF"  with Size Range(1..64) (marshal.go:550)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 64 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  6 bits, byteLen(after): 1, bitsOffset(after): 6, value: 0x00] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding  "SEQUENCE OF" struct QosFlowSetupRequestItem with len(1) (marshal.go:560)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 7, value: 0x00] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mputting optional(2), optionalPresents is 0 (marshal.go:708)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 2, bitsOffset(after): 1, value: 0x00] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting value Extension bit (marshal.go:389)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER with Value Range(0..63) (marshal.go:397)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 2, bitsOffset(after): 2, value: 0x00] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 9 with range 64 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  6 bits, byteLen(after): 2, bitsOffset(after): 0, value: 0x24] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 3, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mputting optional(4), optionalPresents is 0 (marshal.go:708)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  4 bits, byteLen(after): 3, bitsOffset(after): 5, value: 0x00] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Present index of CHOICE  1 - 1 (marshal.go:582)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 3 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 3, bitsOffset(after): 7, value: 0x00] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 3, bitsOffset(after): 0, value: 0x00] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mputting optional(4), optionalPresents is 0 (marshal.go:708)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  4 bits, byteLen(after): 4, bitsOffset(after): 4, value: 0x00] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting value Extension bit (marshal.go:389)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER with Value Range(0..255) (marshal.go:397)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 4, bitsOffset(after): 5, value: 0x00] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 9 with range 256 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mAligning 3 bits (marshal.go:29)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  3 bits, byteLen(after): 4, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 5, bitsOffset(after): 0, value: 0x09] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mField "PriorityLevelQos" in ngapType.NonDynamic5QIDescriptor is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mField "AveragingWindow" in ngapType.NonDynamic5QIDescriptor is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mField "MaximumDataBurstVolume" in ngapType.NonDynamic5QIDescriptor is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mField "IEExtensions" in ngapType.NonDynamic5QIDescriptor is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 6, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mputting optional(1), optionalPresents is 0 (marshal.go:708)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 6, bitsOffset(after): 2, value: 0x00] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 14 with range 15 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  4 bits, byteLen(after): 6, bitsOffset(after): 6, value: 0xe0] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 6, bitsOffset(after): 7, value: 0x00] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..1) (marshal.go:497)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 2 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 6, bitsOffset(after): 0, value: 0x00] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 7, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..1) (marshal.go:497)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 2 (marshal.go:95)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 7, bitsOffset(after): 2, value: 0x00] (marshal.go:61)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mField "IEExtensions" in ngapType.AllocationAndRetentionPriority is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mField "GBRQosInformation" in ngapType.QosFlowLevelQosParameters is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mField "ReflectiveQosAttribute" in ngapType.QosFlowLevelQosParameters is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mField "AdditionalQosFlowInformation" in ngapType.QosFlowLevelQosParameters is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mField "IEExtensions" in ngapType.QosFlowLevelQosParameters is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mField "ERABID" in ngapType.QosFlowSetupRequestItem is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mField "IEExtensions" in ngapType.QosFlowSetupRequestItem is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.QosFlowSetupRequestList RawData : 0x00090000093800(7 bytes) (marshal.go:597)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mAligning 6 bits (marshal.go:29)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  6 bits, byteLen(after): 39, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mPutting Length of Value : 7 (marshal.go:169)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 40, bitsOffset(after): 0, value: 0x07] (marshal.go:42)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoding Part of OpenType RawData size 7 (marshal.go:612)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER put 56 bits, byteLen(after): 47, bitsOffset(after): 0, value: 0x00090000093800] (marshal.go:618)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType RawData (length = 7): 0x00090000093800 (marshal.go:619)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType *ngapType.QosFlowSetupRequestList (marshal.go:630)
+2022-09-15T14:28:18Z[37m [TRAC][SMF][CTX] [0mSMContextState Change State:  Active
+2022-09-15T14:28:18Z[36m [INFO][SMF][PduSess] [0mReceive Update SM Context Request
+2022-09-15T14:28:18Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextUpdate
+2022-09-15T14:28:18Z[37m [TRAC][SMF][PduSess] [0m[SMF] Binary Data N1 SmMessage is nil!
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER got  1 bits, byteOffset(after): 0, bitsOffset(after): 1, value: 0x0] (aper.go:123)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mDecoded Value Extensive Bit : false (aper.go:704)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER got  4 bits, byteOffset(after): 0, bitsOffset(after): 5, value: 0x0] (aper.go:123)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0moptionalPresents is 0 (aper.go:777)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER got  1 bits, byteOffset(after): 0, bitsOffset(after): 6, value: 0x0] (aper.go:123)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mDecoded Value Extensive Bit : false (aper.go:704)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER got  1 bits, byteOffset(after): 0, bitsOffset(after): 7, value: 0x0] (aper.go:123)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0moptionalPresents is 0 (aper.go:777)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mGetting Constraint Value with range 2 (aper.go:148)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER got  1 bits, byteOffset(after): 1, bitsOffset(after): 0, value: 0x1] (aper.go:123)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mDecoded Present index of CHOICE is 1 + 1 (aper.go:609)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mDecoding Length of "SEQUENCE OF"  with Size Range(1..64) (aper.go:556)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mGetting Constraint Value with range 64 (aper.go:148)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER got  6 bits, byteOffset(after): 1, bitsOffset(after): 6, value: 0xe] (aper.go:123)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mDecoding  "SEQUENCE OF" struct AssociatedQosFlowItem with len(15) (aper.go:584)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0m[PER got  1 bits, byteOffset(after): 1, bitsOffset(after): 7, value: 0x0] (aper.go:123)
+2022-09-15T14:28:18Z[37m [DEBU][LIB][Aper] [0mDecoded Value Extensive Bit : false (aper.go:704)
+2022-09-15T14:28:18Z[31m [ERRO][SMF][PduSess] [0mHandle PDUSessionResourceSetupResponseTransfer failed: Get bits overflow, requireBits: 2, leftBits: 1
+2022-09-15T14:28:18Z[33m [WARN][SMF][PduSess] [0mSM Context State [Active] shouldn't be here
+2022-09-15T14:28:18Z[36m [INFO][SMF][GIN] [0m| 200 |    10.100.200.9 | POST    | /nsmf-pdusession/v1/sm-contexts/urn:uuid:d41ce62c-a586-49e0-a9c7-370d4f6a9765/modify |
+2022-09-15T14:29:51Z[36m [INFO][SMF][PduSess] [0mReceive Create SM Context Request
+2022-09-15T14:29:51Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextCreate
+2022-09-15T14:29:51Z[37m [TRAC][SMF][CTX] [0mSMContextState Change State:  PFCPModification
+2022-09-15T14:29:51Z[36m [INFO][SMF][PFCP] [0mHandle PFCP Session Deletion Response
+2022-09-15T14:29:51Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [3]
+2022-09-15T14:29:51Z[37m [TRAC][SMF][PduSess] [0mDelete pending pfcp response: UPF IP [10.100.200.2]
+2022-09-15T14:29:51Z[36m [INFO][SMF][PFCP] [0mPFCP Session Deletion Success[1]
+2022-09-15T14:29:51Z[37m [TRAC][SMF][CTX] [0mIn case SessionReleaseSuccess
+2022-09-15T14:29:51Z[37m [TRAC][SMF][CTX] [0mSMContextState Change State:  InActivePending
+2022-09-15T14:29:51Z[36m [INFO][SMF][CTX] [0m[SMF] Send SMContext Status Notification
+2022-09-15T14:29:51Z[33m [WARN][SMF][PduSess] [0mSend SMContextStatus Notification Error[404 Not Found]
+2022-09-15T14:29:51Z[33m [WARN][SMF][PduSess] [0mSend SMContext Status Notification Problem[&{Type: Title: Status:404 Detail:Guti[00101cafe0000000001] Not Found Instance: Cause:CONTEXT_NOT_FOUND InvalidParams:[]}]
+2022-09-15T14:29:51Z[36m [INFO][SMF][PduSess] [0mUE[imsi-001010000000012] PDUSessionID[1] Release IP[10.60.0.1]
+2022-09-15T14:29:51Z[37m [DEBU][SMF][CTX] [0m[{10.60.0.2 - 10.60.255.254}->{10.60.0.1 - 10.60.0.1}]
+2022-09-15T14:29:51Z[37m [TRAC][SMF][CTX] [0mSMContextState Change State:  ActivePending
+2022-09-15T14:29:51Z[36m [INFO][SMF][PduSess] [0mSend NF Discovery Serving UDM Successfully
+2022-09-15T14:29:51Z[37m [DEBU][SMF][CTX] [0mcheck start UPF: UPF
+2022-09-15T14:29:51Z[37m [DEBU][SMF][CTX] [0mcheck start UEIPPool(10.60.0.0/16)
+2022-09-15T14:29:51Z[36m [INFO][SMF][CTX] [0mAllocated UE IP address: 10.60.0.2
+2022-09-15T14:29:51Z[36m [INFO][SMF][CTX] [0mSelected UPF: UPF
+2022-09-15T14:29:51Z[36m [INFO][SMF][PduSess] [0mUE[imsi-001010000000012] PDUSessionID[1] IP[10.60.0.2]
+2022-09-15T14:29:51Z[36m [INFO][SMF][GSM] [0mIn HandlePDUSessionEstablishmentRequest
+2022-09-15T14:29:51Z[36m [INFO][NAS][Convert] [0mProtocolOrContainerList:  [0xc0000ac960 0xc0000ac9e0 0xc0000aca40 0xc0000acaa0 0xc0000acae0 0xc0000acb20 0xc0000acb80 0xc0000acbc0]
+2022-09-15T14:29:51Z[36m [INFO][SMF][GSM] [0mProtocol Configuration Options
+2022-09-15T14:29:51Z[36m [INFO][SMF][GSM] [0m&{[0xc0000ac960 0xc0000ac9e0 0xc0000aca40 0xc0000acaa0 0xc0000acae0 0xc0000acb20 0xc0000acb80 0xc0000acbc0]}
+2022-09-15T14:29:51Z[37m [TRAC][SMF][GSM] [0mContainer ID:  32801
+2022-09-15T14:29:51Z[37m [TRAC][SMF][GSM] [0mContainer Length:  16
+2022-09-15T14:29:51Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type InternetProtocolControlProtocolUL
+2022-09-15T14:29:51Z[37m [TRAC][SMF][GSM] [0mContainer ID:  13
+2022-09-15T14:29:51Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:29:51Z[37m [TRAC][SMF][GSM] [0mContainer ID:  10
+2022-09-15T14:29:51Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:29:51Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type IPAddressAllocationViaNASSignallingUL
+2022-09-15T14:29:51Z[37m [TRAC][SMF][GSM] [0mContainer ID:  5
+2022-09-15T14:29:51Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:29:51Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type MSSupportOfNetworkRequestedBearerControlIndicatorUL
+2022-09-15T14:29:51Z[37m [TRAC][SMF][GSM] [0mContainer ID:  16
+2022-09-15T14:29:51Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:29:51Z[37m [TRAC][SMF][GSM] [0mContainer ID:  17
+2022-09-15T14:29:51Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:29:51Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type MSSupportOfLocalAddressInTFTIndicatorUL
+2022-09-15T14:29:51Z[37m [TRAC][SMF][GSM] [0mContainer ID:  35
+2022-09-15T14:29:51Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:29:51Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type QoSRulesWithTheLengthOfTwoOctetsSupportIndicatorUL
+2022-09-15T14:29:51Z[37m [TRAC][SMF][GSM] [0mContainer ID:  36
+2022-09-15T14:29:51Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:29:51Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type QoSFlowDescriptionsWithTheLengthOfTwoOctetsSupportIndicatorUL
+2022-09-15T14:29:51Z[36m [INFO][SMF][PduSess] [0mPCF Selection for SMContext SUPI[imsi-001010000000012] PDUSessionID[1]
+2022-09-15T14:29:51Z[37m [TRAC][SMF][PduSess] [0mIn ApplySmPolicyFromDecision
+2022-09-15T14:29:51Z[37m [DEBU][SMF][PduSess] [0mInstall SessionRule[SessRuleId-1]
+2022-09-15T14:29:51Z[37m [TRAC][SMF][PduSess] [0mEnd of ApplySmPolicyFromDecision
+2022-09-15T14:29:51Z[36m [INFO][SMF][PduSess] [0mSUPI[imsi-001010000000012] has no pre-config route
+2022-09-15T14:29:51Z[37m [TRAC][SMF][CTX] [0mIn GetDefaultUserPlanePathByDNN
+2022-09-15T14:29:51Z[37m [TRAC][SMF][CTX] [0mselection:  Dnn: internet
+Sst: 1, Sd: 010203
+2022-09-15T14:29:51Z[37m [TRAC][SMF][PduSess] [0mIn AllocateLocalSEIDForDataPath
+2022-09-15T14:29:51Z[37m [TRAC][SMF][PduSess] [0mNodeIDtoIP:  10.100.200.2
+2022-09-15T14:29:51Z[37m [TRAC][SMF][PduSess] [0mIn ActivateTunnelAndPDR
+2022-09-15T14:29:51Z[37m [TRAC][SMF][PduSess] [0mDataPath Meta Information
+Activated: false
+IsDefault Path: true
+Has Braching Point: false
+Destination IP: 
+Destination Port: 
+DataPath Routing Information
+1th Node in the Path
+Current UPF IP: 10.100.200.2
+Previous UPF IP: None
+Next UPF IP: None
+2022-09-15T14:29:51Z[37m [TRAC][SMF][PduSess] [0mCurrent DP Node IP:  10.100.200.2
+2022-09-15T14:29:51Z[37m [TRAC][SMF][CTX] [0mIn ActivateUpLinkTunnel
+2022-09-15T14:29:51Z[37m [TRAC][SMF][CTX] [0mCalculate  10.100.200.2:8805
+2022-09-15T14:29:51Z[37m [TRAC][SMF][PduSess] [0mCurrent DP Node IP:  10.100.200.2
+2022-09-15T14:29:51Z[37m [TRAC][SMF][PduSess] [0mBefore DLPDR OuterHeaderCreation
+2022-09-15T14:29:51Z[36m [INFO][SMF][Consumer] [0mSendNFDiscoveryServingAMF ok
+2022-09-15T14:29:51Z[37m [TRAC][SMF][PduSess] [0mSend NF Discovery Serving AMF successfully
+2022-09-15T14:29:51Z[37m [TRAC][SMF][PduSess] [0m[SMF] Send SendPfcpSessionEstablishmentRequest
+2022-09-15T14:29:51Z[37m [TRAC][SMF][PduSess] [0mSend to addr  10.100.200.2:8805
+2022-09-15T14:29:51Z[36m [INFO][SMF][GIN] [0m| 201 |    10.100.200.9 | POST    | /nsmf-pdusession/v1/sm-contexts |
+2022-09-15T14:29:51Z[36m [INFO][SMF][PFCP] [0mIn HandlePfcpSessionEstablishmentResponse
+2022-09-15T14:29:51Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [4]
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Length(4) of "SEQUENCE OF"  with Size Range(0..65535) (marshal.go:550)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 4 with range 65536 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mAligning 7 bits (marshal.go:29)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  7 bits, byteLen(after): 1, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put 16 bits, byteLen(after): 3, bitsOffset(after): 0, value: 0x0004] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding  "SEQUENCE OF" struct PDUSessionResourceSetupRequestTransferIEs with len(4) (marshal.go:560)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 130 with range 65536 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put 16 bits, byteLen(after): 5, bitsOffset(after): 0, value: 0x0082] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..2) (marshal.go:497)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 3 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 6, bitsOffset(after): 2, value: 0x00] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Present index of OpenType is 1  (marshal.go:730)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.PDUSessionAggregateMaximumBitRate to temp RawData (marshal.go:591)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mputting optional(1), optionalPresents is 0 (marshal.go:708)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 2, value: 0x00] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting value Extension bit (marshal.go:389)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER with Value Range(0..4000000000000) (marshal.go:397)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 3, value: 0x00] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER Length 4-1 in 3 bits (marshal.go:461)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  3 bits, byteLen(after): 1, bitsOffset(after): 6, value: 0x60] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER 100000000 with 4 bytes (marshal.go:466)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mAligning 2 bits (marshal.go:29)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 1, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put 32 bits, byteLen(after): 5, bitsOffset(after): 0, value: 0x05f5e100] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting value Extension bit (marshal.go:389)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER with Value Range(0..4000000000000) (marshal.go:397)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 6, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER Length 4-1 in 3 bits (marshal.go:461)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  3 bits, byteLen(after): 6, bitsOffset(after): 4, value: 0x60] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER 200000000 with 4 bytes (marshal.go:466)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mAligning 4 bits (marshal.go:29)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  4 bits, byteLen(after): 6, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put 32 bits, byteLen(after): 10, bitsOffset(after): 0, value: 0x0bebc200] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mField "IEExtensions" in ngapType.PDUSessionAggregateMaximumBitRate is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.PDUSessionAggregateMaximumBitRate RawData : 0x0c05f5e100300bebc200(10 bytes) (marshal.go:597)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mAligning 6 bits (marshal.go:29)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  6 bits, byteLen(after): 6, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Length of Value : 10 (marshal.go:169)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 7, bitsOffset(after): 0, value: 0x0a] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Part of OpenType RawData size 10 (marshal.go:612)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put 80 bits, byteLen(after): 17, bitsOffset(after): 0, value: 0x0c05f5e100300bebc200] (marshal.go:618)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType RawData (length = 10): 0x0c05f5e100300bebc200 (marshal.go:619)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType *ngapType.PDUSessionAggregateMaximumBitRate (marshal.go:630)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 139 with range 65536 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put 16 bits, byteLen(after): 19, bitsOffset(after): 0, value: 0x008b] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..2) (marshal.go:497)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 3 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 20, bitsOffset(after): 2, value: 0x00] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Present index of OpenType is 2  (marshal.go:730)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.UPTransportLayerInformation to temp RawData (marshal.go:591)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Present index of CHOICE  1 - 1 (marshal.go:582)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 2 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 2, value: 0x00] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mputting optional(1), optionalPresents is 0 (marshal.go:708)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 3, value: 0x00] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting size Extension Value (marshal.go:198)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 4, value: 0x00] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 31 with range 160 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 2, bitsOffset(after): 4, value: 0x1f] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding BIT STRING size 32 (marshal.go:254)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mAligning 4 bits (marshal.go:29)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  4 bits, byteLen(after): 2, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put 32 bits, byteLen(after): 6, bitsOffset(after): 0, value: 0x0a64c802] (marshal.go:260)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoded BIT STRING (length = 32): 0x0a64c802 (marshal.go:261)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding OCTET STRING size 4 (marshal.go:314)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put 32 bits, byteLen(after): 10, bitsOffset(after): 0, value: 0x00000003] (marshal.go:318)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoded OCTET STRING (length = 4): 0x00000003 (marshal.go:323)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mField "IEExtensions" in ngapType.GTPTunnel is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.UPTransportLayerInformation RawData : 0x01f00a64c80200000003(10 bytes) (marshal.go:597)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mAligning 6 bits (marshal.go:29)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  6 bits, byteLen(after): 20, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Length of Value : 10 (marshal.go:169)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 21, bitsOffset(after): 0, value: 0x0a] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Part of OpenType RawData size 10 (marshal.go:612)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put 80 bits, byteLen(after): 31, bitsOffset(after): 0, value: 0x01f00a64c80200000003] (marshal.go:618)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType RawData (length = 10): 0x01f00a64c80200000003 (marshal.go:619)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType *ngapType.UPTransportLayerInformation (marshal.go:630)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 134 with range 65536 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put 16 bits, byteLen(after): 33, bitsOffset(after): 0, value: 0x0086] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..2) (marshal.go:497)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 3 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 34, bitsOffset(after): 2, value: 0x00] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Present index of OpenType is 5  (marshal.go:730)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.PDUSessionType to temp RawData (marshal.go:591)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..4) (marshal.go:497)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 5 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  3 bits, byteLen(after): 1, bitsOffset(after): 4, value: 0x00] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.PDUSessionType RawData : 0x00(1 bytes) (marshal.go:597)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mAligning 6 bits (marshal.go:29)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  6 bits, byteLen(after): 34, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Length of Value : 1 (marshal.go:169)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 35, bitsOffset(after): 0, value: 0x01] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Part of OpenType RawData size 1 (marshal.go:612)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 36, bitsOffset(after): 0, value: 0x00] (marshal.go:618)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType RawData (length = 1): 0x00 (marshal.go:619)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType *ngapType.PDUSessionType (marshal.go:630)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 136 with range 65536 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put 16 bits, byteLen(after): 38, bitsOffset(after): 0, value: 0x0088] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..2) (marshal.go:497)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 3 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 39, bitsOffset(after): 2, value: 0x00] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Present index of OpenType is 8  (marshal.go:730)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.QosFlowSetupRequestList to temp RawData (marshal.go:591)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Length(1) of "SEQUENCE OF"  with Size Range(1..64) (marshal.go:550)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 64 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  6 bits, byteLen(after): 1, bitsOffset(after): 6, value: 0x00] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding  "SEQUENCE OF" struct QosFlowSetupRequestItem with len(1) (marshal.go:560)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 7, value: 0x00] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mputting optional(2), optionalPresents is 0 (marshal.go:708)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 2, bitsOffset(after): 1, value: 0x00] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting value Extension bit (marshal.go:389)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER with Value Range(0..63) (marshal.go:397)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 2, bitsOffset(after): 2, value: 0x00] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 9 with range 64 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  6 bits, byteLen(after): 2, bitsOffset(after): 0, value: 0x24] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 3, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mputting optional(4), optionalPresents is 0 (marshal.go:708)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  4 bits, byteLen(after): 3, bitsOffset(after): 5, value: 0x00] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Present index of CHOICE  1 - 1 (marshal.go:582)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 3 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 3, bitsOffset(after): 7, value: 0x00] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 3, bitsOffset(after): 0, value: 0x00] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mputting optional(4), optionalPresents is 0 (marshal.go:708)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  4 bits, byteLen(after): 4, bitsOffset(after): 4, value: 0x00] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting value Extension bit (marshal.go:389)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER with Value Range(0..255) (marshal.go:397)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 4, bitsOffset(after): 5, value: 0x00] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 9 with range 256 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mAligning 3 bits (marshal.go:29)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  3 bits, byteLen(after): 4, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 5, bitsOffset(after): 0, value: 0x09] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mField "PriorityLevelQos" in ngapType.NonDynamic5QIDescriptor is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mField "AveragingWindow" in ngapType.NonDynamic5QIDescriptor is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mField "MaximumDataBurstVolume" in ngapType.NonDynamic5QIDescriptor is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mField "IEExtensions" in ngapType.NonDynamic5QIDescriptor is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 6, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mputting optional(1), optionalPresents is 0 (marshal.go:708)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 6, bitsOffset(after): 2, value: 0x00] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 14 with range 15 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  4 bits, byteLen(after): 6, bitsOffset(after): 6, value: 0xe0] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 6, bitsOffset(after): 7, value: 0x00] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..1) (marshal.go:497)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 2 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 6, bitsOffset(after): 0, value: 0x00] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 7, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..1) (marshal.go:497)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 2 (marshal.go:95)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 7, bitsOffset(after): 2, value: 0x00] (marshal.go:61)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mField "IEExtensions" in ngapType.AllocationAndRetentionPriority is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mField "GBRQosInformation" in ngapType.QosFlowLevelQosParameters is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mField "ReflectiveQosAttribute" in ngapType.QosFlowLevelQosParameters is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mField "AdditionalQosFlowInformation" in ngapType.QosFlowLevelQosParameters is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mField "IEExtensions" in ngapType.QosFlowLevelQosParameters is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mField "ERABID" in ngapType.QosFlowSetupRequestItem is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mField "IEExtensions" in ngapType.QosFlowSetupRequestItem is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.QosFlowSetupRequestList RawData : 0x00090000093800(7 bytes) (marshal.go:597)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mAligning 6 bits (marshal.go:29)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  6 bits, byteLen(after): 39, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mPutting Length of Value : 7 (marshal.go:169)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 40, bitsOffset(after): 0, value: 0x07] (marshal.go:42)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoding Part of OpenType RawData size 7 (marshal.go:612)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER put 56 bits, byteLen(after): 47, bitsOffset(after): 0, value: 0x00090000093800] (marshal.go:618)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType RawData (length = 7): 0x00090000093800 (marshal.go:619)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType *ngapType.QosFlowSetupRequestList (marshal.go:630)
+2022-09-15T14:29:51Z[37m [TRAC][SMF][CTX] [0mSMContextState Change State:  Active
+2022-09-15T14:29:51Z[36m [INFO][SMF][PduSess] [0mReceive Update SM Context Request
+2022-09-15T14:29:51Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextUpdate
+2022-09-15T14:29:51Z[37m [TRAC][SMF][PduSess] [0m[SMF] Binary Data N1 SmMessage is nil!
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER got  1 bits, byteOffset(after): 0, bitsOffset(after): 1, value: 0x0] (aper.go:123)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mDecoded Value Extensive Bit : false (aper.go:704)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER got  4 bits, byteOffset(after): 0, bitsOffset(after): 5, value: 0x0] (aper.go:123)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0moptionalPresents is 0 (aper.go:777)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER got  1 bits, byteOffset(after): 0, bitsOffset(after): 6, value: 0x0] (aper.go:123)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mDecoded Value Extensive Bit : false (aper.go:704)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER got  1 bits, byteOffset(after): 0, bitsOffset(after): 7, value: 0x0] (aper.go:123)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0moptionalPresents is 0 (aper.go:777)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mGetting Constraint Value with range 2 (aper.go:148)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER got  1 bits, byteOffset(after): 1, bitsOffset(after): 0, value: 0x1] (aper.go:123)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mDecoded Present index of CHOICE is 1 + 1 (aper.go:609)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mDecoding Length of "SEQUENCE OF"  with Size Range(1..64) (aper.go:556)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mGetting Constraint Value with range 64 (aper.go:148)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER got  6 bits, byteOffset(after): 1, bitsOffset(after): 6, value: 0xe] (aper.go:123)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mDecoding  "SEQUENCE OF" struct AssociatedQosFlowItem with len(15) (aper.go:584)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0m[PER got  1 bits, byteOffset(after): 1, bitsOffset(after): 7, value: 0x0] (aper.go:123)
+2022-09-15T14:29:51Z[37m [DEBU][LIB][Aper] [0mDecoded Value Extensive Bit : false (aper.go:704)
+2022-09-15T14:29:51Z[31m [ERRO][SMF][PduSess] [0mHandle PDUSessionResourceSetupResponseTransfer failed: Get bits overflow, requireBits: 2, leftBits: 1
+2022-09-15T14:29:51Z[33m [WARN][SMF][PduSess] [0mSM Context State [Active] shouldn't be here
+2022-09-15T14:29:51Z[36m [INFO][SMF][GIN] [0m| 200 |    10.100.200.9 | POST    | /nsmf-pdusession/v1/sm-contexts/urn:uuid:3568386e-30cb-4d7d-8123-23b63618bb23/modify |
+2022-09-15T14:31:24Z[36m [INFO][SMF][PduSess] [0mReceive Create SM Context Request
+2022-09-15T14:31:24Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextCreate
+2022-09-15T14:31:24Z[37m [TRAC][SMF][CTX] [0mSMContextState Change State:  PFCPModification
+2022-09-15T14:31:24Z[36m [INFO][SMF][PFCP] [0mHandle PFCP Session Deletion Response
+2022-09-15T14:31:24Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [5]
+2022-09-15T14:31:24Z[37m [TRAC][SMF][PduSess] [0mDelete pending pfcp response: UPF IP [10.100.200.2]
+2022-09-15T14:31:24Z[36m [INFO][SMF][PFCP] [0mPFCP Session Deletion Success[2]
+2022-09-15T14:31:24Z[37m [TRAC][SMF][CTX] [0mIn case SessionReleaseSuccess
+2022-09-15T14:31:24Z[37m [TRAC][SMF][CTX] [0mSMContextState Change State:  InActivePending
+2022-09-15T14:31:24Z[36m [INFO][SMF][CTX] [0m[SMF] Send SMContext Status Notification
+2022-09-15T14:31:24Z[33m [WARN][SMF][PduSess] [0mSend SMContextStatus Notification Error[404 Not Found]
+2022-09-15T14:31:24Z[33m [WARN][SMF][PduSess] [0mSend SMContext Status Notification Problem[&{Type: Title: Status:404 Detail:Guti[00101cafe0000000003] Not Found Instance: Cause:CONTEXT_NOT_FOUND InvalidParams:[]}]
+2022-09-15T14:31:24Z[36m [INFO][SMF][PduSess] [0mUE[imsi-001010000000012] PDUSessionID[1] Release IP[10.60.0.2]
+2022-09-15T14:31:24Z[37m [DEBU][SMF][CTX] [0m[{10.60.0.3 - 10.60.255.254}->{10.60.0.1 - 10.60.0.2}]
+2022-09-15T14:31:24Z[37m [TRAC][SMF][CTX] [0mSMContextState Change State:  ActivePending
+2022-09-15T14:31:24Z[36m [INFO][SMF][PduSess] [0mSend NF Discovery Serving UDM Successfully
+2022-09-15T14:31:24Z[37m [DEBU][SMF][CTX] [0mcheck start UPF: UPF
+2022-09-15T14:31:24Z[37m [DEBU][SMF][CTX] [0mcheck start UEIPPool(10.60.0.0/16)
+2022-09-15T14:31:24Z[36m [INFO][SMF][CTX] [0mAllocated UE IP address: 10.60.0.3
+2022-09-15T14:31:24Z[36m [INFO][SMF][CTX] [0mSelected UPF: UPF
+2022-09-15T14:31:24Z[36m [INFO][SMF][PduSess] [0mUE[imsi-001010000000012] PDUSessionID[1] IP[10.60.0.3]
+2022-09-15T14:31:24Z[36m [INFO][SMF][GSM] [0mIn HandlePDUSessionEstablishmentRequest
+2022-09-15T14:31:24Z[36m [INFO][NAS][Convert] [0mProtocolOrContainerList:  [0xc00020a5c0 0xc00020a800 0xc00020a840 0xc00020a8a0 0xc00020a8e0 0xc00020a920 0xc00020a980 0xc00020a9e0]
+2022-09-15T14:31:24Z[36m [INFO][SMF][GSM] [0mProtocol Configuration Options
+2022-09-15T14:31:24Z[36m [INFO][SMF][GSM] [0m&{[0xc00020a5c0 0xc00020a800 0xc00020a840 0xc00020a8a0 0xc00020a8e0 0xc00020a920 0xc00020a980 0xc00020a9e0]}
+2022-09-15T14:31:24Z[37m [TRAC][SMF][GSM] [0mContainer ID:  32801
+2022-09-15T14:31:24Z[37m [TRAC][SMF][GSM] [0mContainer Length:  16
+2022-09-15T14:31:24Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type InternetProtocolControlProtocolUL
+2022-09-15T14:31:24Z[37m [TRAC][SMF][GSM] [0mContainer ID:  13
+2022-09-15T14:31:24Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:31:24Z[37m [TRAC][SMF][GSM] [0mContainer ID:  10
+2022-09-15T14:31:24Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:31:24Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type IPAddressAllocationViaNASSignallingUL
+2022-09-15T14:31:24Z[37m [TRAC][SMF][GSM] [0mContainer ID:  5
+2022-09-15T14:31:24Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:31:24Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type MSSupportOfNetworkRequestedBearerControlIndicatorUL
+2022-09-15T14:31:24Z[37m [TRAC][SMF][GSM] [0mContainer ID:  16
+2022-09-15T14:31:24Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:31:24Z[37m [TRAC][SMF][GSM] [0mContainer ID:  17
+2022-09-15T14:31:24Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:31:24Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type MSSupportOfLocalAddressInTFTIndicatorUL
+2022-09-15T14:31:24Z[37m [TRAC][SMF][GSM] [0mContainer ID:  35
+2022-09-15T14:31:24Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:31:24Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type QoSRulesWithTheLengthOfTwoOctetsSupportIndicatorUL
+2022-09-15T14:31:24Z[37m [TRAC][SMF][GSM] [0mContainer ID:  36
+2022-09-15T14:31:24Z[37m [TRAC][SMF][GSM] [0mContainer Length:  0
+2022-09-15T14:31:24Z[36m [INFO][SMF][GSM] [0mDidn't Implement container type QoSFlowDescriptionsWithTheLengthOfTwoOctetsSupportIndicatorUL
+2022-09-15T14:31:24Z[36m [INFO][SMF][PduSess] [0mPCF Selection for SMContext SUPI[imsi-001010000000012] PDUSessionID[1]
+2022-09-15T14:31:24Z[37m [TRAC][SMF][PduSess] [0mIn ApplySmPolicyFromDecision
+2022-09-15T14:31:24Z[37m [DEBU][SMF][PduSess] [0mInstall SessionRule[SessRuleId-1]
+2022-09-15T14:31:24Z[37m [TRAC][SMF][PduSess] [0mEnd of ApplySmPolicyFromDecision
+2022-09-15T14:31:24Z[36m [INFO][SMF][PduSess] [0mSUPI[imsi-001010000000012] has no pre-config route
+2022-09-15T14:31:24Z[37m [TRAC][SMF][CTX] [0mIn GetDefaultUserPlanePathByDNN
+2022-09-15T14:31:24Z[37m [TRAC][SMF][CTX] [0mselection:  Dnn: internet
+Sst: 1, Sd: 010203
+2022-09-15T14:31:24Z[37m [TRAC][SMF][PduSess] [0mIn AllocateLocalSEIDForDataPath
+2022-09-15T14:31:24Z[37m [TRAC][SMF][PduSess] [0mNodeIDtoIP:  10.100.200.2
+2022-09-15T14:31:24Z[37m [TRAC][SMF][PduSess] [0mIn ActivateTunnelAndPDR
+2022-09-15T14:31:24Z[37m [TRAC][SMF][PduSess] [0mDataPath Meta Information
+Activated: false
+IsDefault Path: true
+Has Braching Point: false
+Destination IP: 
+Destination Port: 
+DataPath Routing Information
+1th Node in the Path
+Current UPF IP: 10.100.200.2
+Previous UPF IP: None
+Next UPF IP: None
+2022-09-15T14:31:24Z[37m [TRAC][SMF][PduSess] [0mCurrent DP Node IP:  10.100.200.2
+2022-09-15T14:31:24Z[37m [TRAC][SMF][CTX] [0mIn ActivateUpLinkTunnel
+2022-09-15T14:31:24Z[37m [TRAC][SMF][CTX] [0mCalculate  10.100.200.2:8805
+2022-09-15T14:31:24Z[37m [TRAC][SMF][PduSess] [0mCurrent DP Node IP:  10.100.200.2
+2022-09-15T14:31:24Z[37m [TRAC][SMF][PduSess] [0mBefore DLPDR OuterHeaderCreation
+2022-09-15T14:31:24Z[36m [INFO][SMF][Consumer] [0mSendNFDiscoveryServingAMF ok
+2022-09-15T14:31:24Z[37m [TRAC][SMF][PduSess] [0mSend NF Discovery Serving AMF successfully
+2022-09-15T14:31:24Z[37m [TRAC][SMF][PduSess] [0m[SMF] Send SendPfcpSessionEstablishmentRequest
+2022-09-15T14:31:24Z[37m [TRAC][SMF][PduSess] [0mSend to addr  10.100.200.2:8805
+2022-09-15T14:31:24Z[36m [INFO][SMF][GIN] [0m| 201 |    10.100.200.9 | POST    | /nsmf-pdusession/v1/sm-contexts |
+2022-09-15T14:31:24Z[36m [INFO][SMF][PFCP] [0mIn HandlePfcpSessionEstablishmentResponse
+2022-09-15T14:31:24Z[36m [INFO][LIB][PFCP] [0mRemove Request Transaction [6]
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Length(4) of "SEQUENCE OF"  with Size Range(0..65535) (marshal.go:550)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 4 with range 65536 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mAligning 7 bits (marshal.go:29)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  7 bits, byteLen(after): 1, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put 16 bits, byteLen(after): 3, bitsOffset(after): 0, value: 0x0004] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding  "SEQUENCE OF" struct PDUSessionResourceSetupRequestTransferIEs with len(4) (marshal.go:560)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 130 with range 65536 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put 16 bits, byteLen(after): 5, bitsOffset(after): 0, value: 0x0082] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..2) (marshal.go:497)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 3 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 6, bitsOffset(after): 2, value: 0x00] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Present index of OpenType is 1  (marshal.go:730)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.PDUSessionAggregateMaximumBitRate to temp RawData (marshal.go:591)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mputting optional(1), optionalPresents is 0 (marshal.go:708)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 2, value: 0x00] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting value Extension bit (marshal.go:389)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER with Value Range(0..4000000000000) (marshal.go:397)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 3, value: 0x00] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER Length 4-1 in 3 bits (marshal.go:461)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  3 bits, byteLen(after): 1, bitsOffset(after): 6, value: 0x60] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER 100000000 with 4 bytes (marshal.go:466)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mAligning 2 bits (marshal.go:29)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 1, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put 32 bits, byteLen(after): 5, bitsOffset(after): 0, value: 0x05f5e100] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting value Extension bit (marshal.go:389)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER with Value Range(0..4000000000000) (marshal.go:397)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 6, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER Length 4-1 in 3 bits (marshal.go:461)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  3 bits, byteLen(after): 6, bitsOffset(after): 4, value: 0x60] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER 200000000 with 4 bytes (marshal.go:466)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mAligning 4 bits (marshal.go:29)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  4 bits, byteLen(after): 6, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put 32 bits, byteLen(after): 10, bitsOffset(after): 0, value: 0x0bebc200] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mField "IEExtensions" in ngapType.PDUSessionAggregateMaximumBitRate is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.PDUSessionAggregateMaximumBitRate RawData : 0x0c05f5e100300bebc200(10 bytes) (marshal.go:597)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mAligning 6 bits (marshal.go:29)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  6 bits, byteLen(after): 6, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Length of Value : 10 (marshal.go:169)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 7, bitsOffset(after): 0, value: 0x0a] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Part of OpenType RawData size 10 (marshal.go:612)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put 80 bits, byteLen(after): 17, bitsOffset(after): 0, value: 0x0c05f5e100300bebc200] (marshal.go:618)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType RawData (length = 10): 0x0c05f5e100300bebc200 (marshal.go:619)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType *ngapType.PDUSessionAggregateMaximumBitRate (marshal.go:630)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 139 with range 65536 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put 16 bits, byteLen(after): 19, bitsOffset(after): 0, value: 0x008b] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..2) (marshal.go:497)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 3 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 20, bitsOffset(after): 2, value: 0x00] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Present index of OpenType is 2  (marshal.go:730)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.UPTransportLayerInformation to temp RawData (marshal.go:591)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Present index of CHOICE  1 - 1 (marshal.go:582)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 2 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 2, value: 0x00] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mputting optional(1), optionalPresents is 0 (marshal.go:708)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 3, value: 0x00] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting size Extension Value (marshal.go:198)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 4, value: 0x00] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 31 with range 160 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 2, bitsOffset(after): 4, value: 0x1f] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding BIT STRING size 32 (marshal.go:254)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mAligning 4 bits (marshal.go:29)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  4 bits, byteLen(after): 2, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put 32 bits, byteLen(after): 6, bitsOffset(after): 0, value: 0x0a64c802] (marshal.go:260)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoded BIT STRING (length = 32): 0x0a64c802 (marshal.go:261)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding OCTET STRING size 4 (marshal.go:314)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put 32 bits, byteLen(after): 10, bitsOffset(after): 0, value: 0x00000005] (marshal.go:318)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoded OCTET STRING (length = 4): 0x00000005 (marshal.go:323)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mField "IEExtensions" in ngapType.GTPTunnel is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.UPTransportLayerInformation RawData : 0x01f00a64c80200000005(10 bytes) (marshal.go:597)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mAligning 6 bits (marshal.go:29)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  6 bits, byteLen(after): 20, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Length of Value : 10 (marshal.go:169)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 21, bitsOffset(after): 0, value: 0x0a] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Part of OpenType RawData size 10 (marshal.go:612)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put 80 bits, byteLen(after): 31, bitsOffset(after): 0, value: 0x01f00a64c80200000005] (marshal.go:618)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType RawData (length = 10): 0x01f00a64c80200000005 (marshal.go:619)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType *ngapType.UPTransportLayerInformation (marshal.go:630)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 134 with range 65536 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put 16 bits, byteLen(after): 33, bitsOffset(after): 0, value: 0x0086] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..2) (marshal.go:497)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 3 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 34, bitsOffset(after): 2, value: 0x00] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Present index of OpenType is 5  (marshal.go:730)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.PDUSessionType to temp RawData (marshal.go:591)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..4) (marshal.go:497)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 5 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  3 bits, byteLen(after): 1, bitsOffset(after): 4, value: 0x00] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.PDUSessionType RawData : 0x00(1 bytes) (marshal.go:597)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mAligning 6 bits (marshal.go:29)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  6 bits, byteLen(after): 34, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Length of Value : 1 (marshal.go:169)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 35, bitsOffset(after): 0, value: 0x01] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Part of OpenType RawData size 1 (marshal.go:612)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 36, bitsOffset(after): 0, value: 0x00] (marshal.go:618)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType RawData (length = 1): 0x00 (marshal.go:619)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType *ngapType.PDUSessionType (marshal.go:630)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 136 with range 65536 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put 16 bits, byteLen(after): 38, bitsOffset(after): 0, value: 0x0088] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..2) (marshal.go:497)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 3 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 39, bitsOffset(after): 2, value: 0x00] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Present index of OpenType is 8  (marshal.go:730)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.QosFlowSetupRequestList to temp RawData (marshal.go:591)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Length(1) of "SEQUENCE OF"  with Size Range(1..64) (marshal.go:550)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 64 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  6 bits, byteLen(after): 1, bitsOffset(after): 6, value: 0x00] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding  "SEQUENCE OF" struct QosFlowSetupRequestItem with len(1) (marshal.go:560)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 1, bitsOffset(after): 7, value: 0x00] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mputting optional(2), optionalPresents is 0 (marshal.go:708)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 2, bitsOffset(after): 1, value: 0x00] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting value Extension bit (marshal.go:389)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER with Value Range(0..63) (marshal.go:397)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 2, bitsOffset(after): 2, value: 0x00] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 9 with range 64 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  6 bits, byteLen(after): 2, bitsOffset(after): 0, value: 0x24] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 3, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mputting optional(4), optionalPresents is 0 (marshal.go:708)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  4 bits, byteLen(after): 3, bitsOffset(after): 5, value: 0x00] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Present index of CHOICE  1 - 1 (marshal.go:582)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 3 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  2 bits, byteLen(after): 3, bitsOffset(after): 7, value: 0x00] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 3, bitsOffset(after): 0, value: 0x00] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mputting optional(4), optionalPresents is 0 (marshal.go:708)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  4 bits, byteLen(after): 4, bitsOffset(after): 4, value: 0x00] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting value Extension bit (marshal.go:389)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding INTEGER with Value Range(0..255) (marshal.go:397)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 4, bitsOffset(after): 5, value: 0x00] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 9 with range 256 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mAligning 3 bits (marshal.go:29)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  3 bits, byteLen(after): 4, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 5, bitsOffset(after): 0, value: 0x09] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mField "PriorityLevelQos" in ngapType.NonDynamic5QIDescriptor is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mField "AveragingWindow" in ngapType.NonDynamic5QIDescriptor is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mField "MaximumDataBurstVolume" in ngapType.NonDynamic5QIDescriptor is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mField "IEExtensions" in ngapType.NonDynamic5QIDescriptor is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Value Extensive Bit : false (marshal.go:680)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 6, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mputting optional(1), optionalPresents is 0 (marshal.go:708)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 6, bitsOffset(after): 2, value: 0x00] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 14 with range 15 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  4 bits, byteLen(after): 6, bitsOffset(after): 6, value: 0xe0] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 6, bitsOffset(after): 7, value: 0x00] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..1) (marshal.go:497)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 2 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 6, bitsOffset(after): 0, value: 0x00] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 7, bitsOffset(after): 1, value: 0x00] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding ENUMERATED Value : 0 with Value Range(0..1) (marshal.go:497)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Constraint Value 0 with range 2 (marshal.go:95)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  1 bits, byteLen(after): 7, bitsOffset(after): 2, value: 0x00] (marshal.go:61)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mField "IEExtensions" in ngapType.AllocationAndRetentionPriority is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mField "GBRQosInformation" in ngapType.QosFlowLevelQosParameters is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mField "ReflectiveQosAttribute" in ngapType.QosFlowLevelQosParameters is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mField "AdditionalQosFlowInformation" in ngapType.QosFlowLevelQosParameters is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mField "IEExtensions" in ngapType.QosFlowLevelQosParameters is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mField "ERABID" in ngapType.QosFlowSetupRequestItem is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mField "IEExtensions" in ngapType.QosFlowSetupRequestItem is OPTIONAL and not present (marshal.go:750)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding OpenType *ngapType.QosFlowSetupRequestList RawData : 0x00090000093800(7 bytes) (marshal.go:597)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mAligning 6 bits (marshal.go:29)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  6 bits, byteLen(after): 39, bitsOffset(after): 0, value: 0x00] (marshal.go:30)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mPutting Length of Value : 7 (marshal.go:169)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put  8 bits, byteLen(after): 40, bitsOffset(after): 0, value: 0x07] (marshal.go:42)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoding Part of OpenType RawData size 7 (marshal.go:612)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER put 56 bits, byteLen(after): 47, bitsOffset(after): 0, value: 0x00090000093800] (marshal.go:618)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType RawData (length = 7): 0x00090000093800 (marshal.go:619)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mEncoded OpenType *ngapType.QosFlowSetupRequestList (marshal.go:630)
+2022-09-15T14:31:24Z[37m [TRAC][SMF][CTX] [0mSMContextState Change State:  Active
+2022-09-15T14:31:24Z[36m [INFO][SMF][PduSess] [0mReceive Update SM Context Request
+2022-09-15T14:31:24Z[36m [INFO][SMF][PduSess] [0mIn HandlePDUSessionSMContextUpdate
+2022-09-15T14:31:24Z[37m [TRAC][SMF][PduSess] [0m[SMF] Binary Data N1 SmMessage is nil!
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER got  1 bits, byteOffset(after): 0, bitsOffset(after): 1, value: 0x0] (aper.go:123)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mDecoded Value Extensive Bit : false (aper.go:704)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER got  4 bits, byteOffset(after): 0, bitsOffset(after): 5, value: 0x0] (aper.go:123)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0moptionalPresents is 0 (aper.go:777)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER got  1 bits, byteOffset(after): 0, bitsOffset(after): 6, value: 0x0] (aper.go:123)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mDecoded Value Extensive Bit : false (aper.go:704)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER got  1 bits, byteOffset(after): 0, bitsOffset(after): 7, value: 0x0] (aper.go:123)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0moptionalPresents is 0 (aper.go:777)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mGetting Constraint Value with range 2 (aper.go:148)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER got  1 bits, byteOffset(after): 1, bitsOffset(after): 0, value: 0x1] (aper.go:123)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mDecoded Present index of CHOICE is 1 + 1 (aper.go:609)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mDecoding Length of "SEQUENCE OF"  with Size Range(1..64) (aper.go:556)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mGetting Constraint Value with range 64 (aper.go:148)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER got  6 bits, byteOffset(after): 1, bitsOffset(after): 6, value: 0xe] (aper.go:123)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mDecoding  "SEQUENCE OF" struct AssociatedQosFlowItem with len(15) (aper.go:584)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0m[PER got  1 bits, byteOffset(after): 1, bitsOffset(after): 7, value: 0x0] (aper.go:123)
+2022-09-15T14:31:24Z[37m [DEBU][LIB][Aper] [0mDecoded Value Extensive Bit : false (aper.go:704)
+2022-09-15T14:31:24Z[31m [ERRO][SMF][PduSess] [0mHandle PDUSessionResourceSetupResponseTransfer failed: Get bits overflow, requireBits: 2, leftBits: 1
+2022-09-15T14:31:24Z[33m [WARN][SMF][PduSess] [0mSM Context State [Active] shouldn't be here
+2022-09-15T14:31:24Z[36m [INFO][SMF][GIN] [0m| 200 |    10.100.200.9 | POST    | /nsmf-pdusession/v1/sm-contexts/urn:uuid:ceaea6cb-dbfe-470c-a0f9-8f7b9274ff94/modify |
+2022-09-15T14:31:37Z[36m [INFO][SMF][Init] [0mTerminating SMF...
+2022-09-15T14:31:37Z[36m [INFO][SMF][Consumer] [0mSend Deregister NFInstance
+2022-09-15T14:31:38Z[36m [INFO][SMF][Init] [0mDeregister from NRF successfully

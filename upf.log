@@ -1,0 +1,1173 @@
+2022-09-15T14:27:04Z[36m [INFO][UPF][Util] [0mUPF log: /free5gc/log/upf.log
+2022-09-15T14:27:04Z[36m [INFO][UPF][Util] [0mConfig: /free5gc/config/upfcfg.yaml
+2022-09-15T14:27:04Z[36m [INFO][UPF][Util] [0mUPF config version [1.0.0]
+2022-09-15T14:27:04Z[36m [INFO][UPF][Util] [0mSet log level: trace
+2022-09-15T14:27:04Z[33m [WARN][UPF][Util] [0mUnknown key "unit" of configuration
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[512], available[511]
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[120]
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[128]
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mUPF - Config Handle is finished in UPF initialization
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mUPF - Epoll is finished in UPF initialization
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[127]
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[126]
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mUPF - Event Queue is finished in UPF initialization
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[127]
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mUPF - Thread is finished in UPF initialization
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mGet VirtualDevice Name: upfgtp
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[126]
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mGet VirtualPort Info in VirtualDevice: 10.100.200.2
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[1024], available[1023]
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[1024], available[1022]
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[125]
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[124]
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[119]
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[128]
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[118]
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[128]
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[117]
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[128]
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[125]
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:27:04Z[36m [INFO][UPF][Util] [0mDNN routes added, main routing table:
+2022-09-15T14:27:04Z[36m [INFO][UPF][Util] [0mDstIp               Gateway        Iface     Priority RtProto   Type
+2022-09-15T14:27:04Z[36m [INFO][UPF][Util] [0m10.100.200.0 /24    0.0.0.0        eth0      0        kernel    unicast
+2022-09-15T14:27:04Z[36m [INFO][UPF][Util] [0m10.60.0.0 /24       0.0.0.0        upfgtp    0        static    unicast
+2022-09-15T14:27:04Z[36m [INFO][UPF][Util] [0m0.0.0.0 /0          10.100.200.1   eth0      0        boot      unicast
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[118]
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[128]
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[119]
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[128]
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[120]
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[128]
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[126]
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mUPF - Environment Init is finished in UPF initialization
+2022-09-15T14:27:04Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[1024], available[1021]
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mPfcpServer() [10.100.200.2]:8805
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mIndex Init Finish: 64
+2022-09-15T14:27:04Z[37m [TRAC][UPF][Util] [0mUPF - PFCP is finished in UPF initialization
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[255]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[16], available[15]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[8192]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPFCP Receive packet: (local bind) 10.100.200.2:8805, (remote get) 10.100.200.2:8805
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[119]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[256]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[118]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[256]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[119]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[256]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[118]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[256]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[512], available[511]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[119]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[256]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[254]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[8], available[7]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[16384]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[125]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[124]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[123]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[64], available[63]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[1024], available[1023]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0m[1] remote Create  peer [10.100.200.14]:8805
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0m[1] remote Receive peer [10.100.200.14]:8805
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0m[1] remote UDP RX-5 peer [10.100.200.14]:8805
+2022-09-15T14:27:07Z[36m [INFO][UPF][Util] [0m[PFCP] Handle PFCP association setup request
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[253]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[122]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[252]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[121]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[122]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[253]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[252]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[121]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[122]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[253]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[252]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[121]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[122]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[253]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[252]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[121]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[122]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[253]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPFCP association session setup response built!
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0m[1] remote UDP TX-6 peer [10.100.200.14]:8805
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[252]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[121]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[122]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[253]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0m[1] remote Commit  peer [10.100.200.14]:8805
+2022-09-15T14:27:07Z[36m [INFO][UPF][Util] [0m[PFCP] Association Setup Response
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[123]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[124]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[125]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[8], available[8]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[16384]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[254]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[16], available[16]
+2022-09-15T14:27:07Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[8192]
+2022-09-15T14:27:07Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[255]
+2022-09-15T14:27:10Z[37m [TRAC][UPF][Util] [0m[Timer Debug] PfcpXactTimeout index 0 and event 3
+2022-09-15T14:27:10Z[37m [TRAC][UPF][Util] [0m[1] remote Holding Timeout for step 2 type 6 peer [10.100.200.14]:8805
+2022-09-15T14:27:10Z[37m [TRAC][UPF][Util] [0m[1] remote Delete Transaction for step 2 type 6 peer [10.100.200.14]:8805
+2022-09-15T14:27:10Z[37m [TRAC][UPF][Util] [0m[1] remote Delete  peer [10.100.200.14]:8805
+2022-09-15T14:27:10Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[126]
+2022-09-15T14:27:10Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:27:10Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[256]
+2022-09-15T14:27:10Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[1024], available[1024]
+2022-09-15T14:27:10Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[64], available[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[255]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[16], available[15]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[8192]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPFCP Receive packet: (local bind) 10.100.200.2:8805, (remote get) 10.100.200.2:8805
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[254]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[8], available[7]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[16384]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[125]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[124]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[123]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[122]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[121]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[120]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[119]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[118]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[117]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[116]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[115]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[114]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[113]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[112]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[111]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[110]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[109]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[108]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[107]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[106]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[105]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[104]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[103]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[102]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[101]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[100]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[99]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[98]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[97]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[65536], available[65535]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[96]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mUPF Establishment UPF SEID: 1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[64], available[63]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[1024], available[1023]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0m[2] remote Create  peer [10.100.200.14]:8805
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0m[2] remote Receive peer [10.100.200.14]:8805
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0m[2] remote UDP RX-50 peer [10.100.200.14]:8805
+2022-09-15T14:28:18Z[36m [INFO][UPF][Util] [0m[PFCP] Handle PFCP session establishment request
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mHandle Create FAR
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mFAR ID: 1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mFAR Apply Action: 2
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mForwarding Parameters Destination Interface: 2
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mForwarding Parameters Network Instance: 2
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g get FAR ID: 1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g get FAR Apply Action: 2
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g get FAR Apply Action: 2
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g get apply action: 2
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mFAR add to kernel, dev: upfgtp, far id: 16777216
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[524288], available[524287]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[95]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mHandle Create FAR
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mFAR ID: 2
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mFAR Apply Action: 2
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g get FAR ID: 2
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g get FAR Apply Action: 2
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g get apply action: 2
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mFAR add to kernel, dev: upfgtp, far id: 33554432
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[524288], available[524286]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[94]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mHandle Create QER
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mQER ID: 1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mQER Gate Status: 0
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mQER MBR UL: 200000, DL: 100000
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mQER QoS Flow Identifier: 9
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g get QER ID: 1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g get QER Gate Status: 0
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mQER add to kernel, dev: upfgtp, qer id: 16777216
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[131072], available[131071]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[93]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mHandle Create PDR
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPDR ID: 1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPDR ID: 255
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPDI Source Interface: 0
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mF-TEID TEID: 1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mF-TEID IPv4: 10.100.200.2
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mUE IP Address IPv4: 10.60.0.1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPDR Outer Header Removal: 0
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPDR FAR ID: 1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPDR QER ID: 1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR ID: 1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR Precedence: 255
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g set PDI F-TEID: 1, 10.100.200.2
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g set PDI UE IP Address: 10.60.0.1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR Outer Header Removal: 0
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR FAR ID: 1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR QER ID: 1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g get precendence: 4278190080
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g get farId: 16777216
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g get outer header removal: 0
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g get ue ip: 10.60.0.1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g get teid: 16777216
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g get gtpu ip: 10.100.200.2
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPDR add to kernel, dev: upfgtp, pdr id: 256
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[524288], available[524287]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[92]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[91]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[90]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mHandle Create PDR
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPDR ID: 2
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPDR ID: 255
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPDI Source Interface: 1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mUE IP Address IPv4: 10.60.0.1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPDR FAR ID: 2
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPDR QER ID: 1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR ID: 2
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR Precedence: 255
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g set PDI UE IP Address: 10.60.0.1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR FAR ID: 2
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR QER ID: 1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g get precendence: 4278190080
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g get farId: 33554432
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mgtp5g get ue ip: 10.60.0.1
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPDR add to kernel, dev: upfgtp, pdr id: 512
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[524288], available[524286]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[89]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[88]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[87]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[253]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[86]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[252]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[85]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[86]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[253]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[252]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[85]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[86]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[253]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[252]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[85]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[86]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[253]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPFCP session establishment response built!
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0m[2] remote UDP TX-51 peer [10.100.200.14]:8805
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[252]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[85]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[86]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[253]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0m[2] remote Commit  peer [10.100.200.14]:8805
+2022-09-15T14:28:18Z[36m [INFO][UPF][Util] [0m[PFCP] Session Establishment Response
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[87]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[88]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[89]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[90]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[91]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[92]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[93]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[94]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[95]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[96]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[97]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[98]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[99]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[100]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[101]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[102]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[103]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[104]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[105]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[106]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[107]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[108]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[109]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[110]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[111]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[112]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[113]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[114]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[115]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[8], available[8]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[16384]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[254]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[16], available[16]
+2022-09-15T14:28:18Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[8192]
+2022-09-15T14:28:18Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[255]
+2022-09-15T14:28:21Z[37m [TRAC][UPF][Util] [0m[Timer Debug] PfcpXactTimeout index 1 and event 3
+2022-09-15T14:28:21Z[37m [TRAC][UPF][Util] [0m[2] remote Holding Timeout for step 2 type 51 peer [10.100.200.14]:8805
+2022-09-15T14:28:21Z[37m [TRAC][UPF][Util] [0m[2] remote Delete Transaction for step 2 type 51 peer [10.100.200.14]:8805
+2022-09-15T14:28:21Z[37m [TRAC][UPF][Util] [0m[2] remote Delete  peer [10.100.200.14]:8805
+2022-09-15T14:28:21Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[116]
+2022-09-15T14:28:21Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:28:21Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[256]
+2022-09-15T14:28:21Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[1024], available[1024]
+2022-09-15T14:28:21Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[64], available[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[255]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[16], available[15]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[8192]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPFCP Receive packet: (local bind) 10.100.200.2:8805, (remote get) 10.100.200.2:8805
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[254]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[8], available[7]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[16384]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[64], available[63]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[1024], available[1023]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0m[3] remote Create  peer [10.100.200.14]:8805
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0m[3] remote Receive peer [10.100.200.14]:8805
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0m[3] remote UDP RX-54 peer [10.100.200.14]:8805
+2022-09-15T14:29:51Z[36m [INFO][UPF][Util] [0m[PFCP] Handle PFCP session deletion request
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[117]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[118]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[119]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[120]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[121]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[122]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[524288], available[524287]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[123]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[524288], available[524288]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[124]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[524288], available[524287]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[125]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[524288], available[524288]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[126]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[131072], available[131072]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[65536], available[65536]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[253]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[125]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[252]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[124]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[125]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[253]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPFCP session deletion response built!
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0m[3] remote UDP TX-55 peer [10.100.200.14]:8805
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[252]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[124]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[125]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[253]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0m[3] remote Commit  peer [10.100.200.14]:8805
+2022-09-15T14:29:51Z[36m [INFO][UPF][Util] [0m[PFCP] Session Deletion Response
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[8], available[8]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[16384]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[254]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[16], available[16]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[8192]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[255]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[254]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[16], available[15]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[8192]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPFCP Receive packet: (local bind) 10.100.200.2:8805, (remote get) 10.100.200.2:8805
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[253]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[8], available[7]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[16384]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[124]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[123]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[122]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[121]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[120]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[119]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[118]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[117]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[116]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[115]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[114]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[113]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[112]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[111]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[110]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[109]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[108]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[107]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[106]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[105]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[104]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[103]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[102]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[101]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[100]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[99]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[98]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[97]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[96]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[65536], available[65535]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[95]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mUPF Establishment UPF SEID: 2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[64], available[62]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[1024], available[1022]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0m[4] remote Create  peer [10.100.200.14]:8805
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0m[4] remote Receive peer [10.100.200.14]:8805
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0m[4] remote UDP RX-50 peer [10.100.200.14]:8805
+2022-09-15T14:29:51Z[36m [INFO][UPF][Util] [0m[PFCP] Handle PFCP session establishment request
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mHandle Create FAR
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mFAR ID: 3
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mFAR Apply Action: 2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mForwarding Parameters Destination Interface: 2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mForwarding Parameters Network Instance: 2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g get FAR ID: 3
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g get FAR Apply Action: 2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g get FAR Apply Action: 2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g get apply action: 2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mFAR add to kernel, dev: upfgtp, far id: 50331648
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[524288], available[524287]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[94]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mHandle Create FAR
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mFAR ID: 4
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mFAR Apply Action: 2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g get FAR ID: 4
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g get FAR Apply Action: 2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g get apply action: 2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mFAR add to kernel, dev: upfgtp, far id: 67108864
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[524288], available[524286]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[93]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mHandle Create QER
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mQER ID: 2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mQER Gate Status: 0
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mQER MBR UL: 200000, DL: 100000
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mQER QoS Flow Identifier: 9
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g get QER ID: 2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g get QER Gate Status: 0
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mQER add to kernel, dev: upfgtp, qer id: 33554432
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[131072], available[131071]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[92]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mHandle Create PDR
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPDR ID: 3
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPDR ID: 255
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPDI Source Interface: 0
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mF-TEID TEID: 3
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mF-TEID IPv4: 10.100.200.2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mUE IP Address IPv4: 10.60.0.2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPDR Outer Header Removal: 0
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPDR FAR ID: 3
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPDR QER ID: 2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR ID: 3
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR Precedence: 255
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g set PDI F-TEID: 3, 10.100.200.2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g set PDI UE IP Address: 10.60.0.2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR Outer Header Removal: 0
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR FAR ID: 3
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR QER ID: 2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g get precendence: 4278190080
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g get farId: 50331648
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g get outer header removal: 0
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g get ue ip: 10.60.0.2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g get teid: 50331648
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g get gtpu ip: 10.100.200.2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPDR add to kernel, dev: upfgtp, pdr id: 768
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[524288], available[524287]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[91]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[90]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[89]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mHandle Create PDR
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPDR ID: 4
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPDR ID: 255
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPDI Source Interface: 1
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mUE IP Address IPv4: 10.60.0.2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPDR FAR ID: 4
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPDR QER ID: 2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR ID: 4
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR Precedence: 255
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g set PDI UE IP Address: 10.60.0.2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR FAR ID: 4
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR QER ID: 2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g get precendence: 4278190080
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g get farId: 67108864
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mgtp5g get ue ip: 10.60.0.2
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPDR add to kernel, dev: upfgtp, pdr id: 1024
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[524288], available[524286]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[88]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[87]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[86]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[252]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[85]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[251]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[84]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[85]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[252]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[251]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[84]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[85]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[252]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[251]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[84]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[85]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[252]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPFCP session establishment response built!
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0m[4] remote UDP TX-51 peer [10.100.200.14]:8805
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[251]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[84]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[85]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[252]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0m[4] remote Commit  peer [10.100.200.14]:8805
+2022-09-15T14:29:51Z[36m [INFO][UPF][Util] [0m[PFCP] Session Establishment Response
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[86]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[87]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[88]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[89]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[90]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[91]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[92]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[93]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[94]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[95]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[96]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[97]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[98]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[99]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[100]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[101]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[102]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[103]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[104]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[105]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[106]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[107]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[108]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[109]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[110]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[111]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[112]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[113]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[114]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[8], available[8]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[16384]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[253]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[16], available[16]
+2022-09-15T14:29:51Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[8192]
+2022-09-15T14:29:51Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[254]
+2022-09-15T14:29:54Z[37m [TRAC][UPF][Util] [0m[Timer Debug] PfcpXactTimeout index 2 and event 3
+2022-09-15T14:29:54Z[37m [TRAC][UPF][Util] [0m[3] remote Holding Timeout for step 2 type 55 peer [10.100.200.14]:8805
+2022-09-15T14:29:54Z[37m [TRAC][UPF][Util] [0m[3] remote Delete Transaction for step 2 type 55 peer [10.100.200.14]:8805
+2022-09-15T14:29:54Z[37m [TRAC][UPF][Util] [0m[3] remote Delete  peer [10.100.200.14]:8805
+2022-09-15T14:29:54Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[115]
+2022-09-15T14:29:54Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:54Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[255]
+2022-09-15T14:29:54Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[1024], available[1023]
+2022-09-15T14:29:54Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[64], available[63]
+2022-09-15T14:29:54Z[37m [TRAC][UPF][Util] [0m[Timer Debug] PfcpXactTimeout index 3 and event 3
+2022-09-15T14:29:54Z[37m [TRAC][UPF][Util] [0m[4] remote Holding Timeout for step 2 type 51 peer [10.100.200.14]:8805
+2022-09-15T14:29:54Z[37m [TRAC][UPF][Util] [0m[4] remote Delete Transaction for step 2 type 51 peer [10.100.200.14]:8805
+2022-09-15T14:29:54Z[37m [TRAC][UPF][Util] [0m[4] remote Delete  peer [10.100.200.14]:8805
+2022-09-15T14:29:54Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[116]
+2022-09-15T14:29:54Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:29:54Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[256]
+2022-09-15T14:29:54Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[1024], available[1024]
+2022-09-15T14:29:54Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[64], available[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[255]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[16], available[15]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[8192]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPFCP Receive packet: (local bind) 10.100.200.2:8805, (remote get) 10.100.200.2:8805
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[254]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[8], available[7]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[16384]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[64], available[63]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[1024], available[1023]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0m[5] remote Create  peer [10.100.200.14]:8805
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0m[5] remote Receive peer [10.100.200.14]:8805
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0m[5] remote UDP RX-54 peer [10.100.200.14]:8805
+2022-09-15T14:31:24Z[36m [INFO][UPF][Util] [0m[PFCP] Handle PFCP session deletion request
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[117]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[118]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[119]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[120]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[121]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[122]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[524288], available[524287]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[123]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[524288], available[524288]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[124]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[524288], available[524287]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[125]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[524288], available[524288]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[126]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[131072], available[131072]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[65536], available[65536]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[253]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[125]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[252]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[124]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[125]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[253]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPFCP session deletion response built!
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0m[5] remote UDP TX-55 peer [10.100.200.14]:8805
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[252]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[124]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[125]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[253]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0m[5] remote Commit  peer [10.100.200.14]:8805
+2022-09-15T14:31:24Z[36m [INFO][UPF][Util] [0m[PFCP] Session Deletion Response
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[8], available[8]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[16384]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[254]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[16], available[16]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[8192]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[255]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[254]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[16], available[15]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[8192]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPFCP Receive packet: (local bind) 10.100.200.2:8805, (remote get) 10.100.200.2:8805
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[253]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[8], available[7]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[16384]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[124]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[123]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[122]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[121]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[120]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[119]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[118]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[117]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[116]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[115]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[114]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[113]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[112]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[111]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[110]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[109]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[108]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[107]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[106]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[105]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[104]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[103]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[102]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[101]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[100]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[99]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[98]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[97]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[96]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[65536], available[65535]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[95]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mUPF Establishment UPF SEID: 3
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[64], available[62]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[1024], available[1022]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0m[6] remote Create  peer [10.100.200.14]:8805
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0m[6] remote Receive peer [10.100.200.14]:8805
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0m[6] remote UDP RX-50 peer [10.100.200.14]:8805
+2022-09-15T14:31:24Z[36m [INFO][UPF][Util] [0m[PFCP] Handle PFCP session establishment request
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mHandle Create FAR
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mFAR ID: 5
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mFAR Apply Action: 2
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mForwarding Parameters Destination Interface: 2
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mForwarding Parameters Network Instance: 2
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g get FAR ID: 5
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g get FAR Apply Action: 2
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g get FAR Apply Action: 2
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g get apply action: 2
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mFAR add to kernel, dev: upfgtp, far id: 83886080
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[524288], available[524287]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[94]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mHandle Create FAR
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mFAR ID: 6
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mFAR Apply Action: 2
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g get FAR ID: 6
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g get FAR Apply Action: 2
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g get apply action: 2
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mFAR add to kernel, dev: upfgtp, far id: 100663296
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[524288], available[524286]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[93]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mHandle Create QER
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mQER ID: 3
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mQER Gate Status: 0
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mQER MBR UL: 200000, DL: 100000
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mQER QoS Flow Identifier: 9
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g get QER ID: 3
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g get QER Gate Status: 0
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mQER add to kernel, dev: upfgtp, qer id: 50331648
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[131072], available[131071]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[92]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mHandle Create PDR
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPDR ID: 5
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPDR ID: 255
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPDI Source Interface: 0
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mF-TEID TEID: 5
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mF-TEID IPv4: 10.100.200.2
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mUE IP Address IPv4: 10.60.0.3
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPDR Outer Header Removal: 0
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPDR FAR ID: 5
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPDR QER ID: 3
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR ID: 5
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR Precedence: 255
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g set PDI F-TEID: 5, 10.100.200.2
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g set PDI UE IP Address: 10.60.0.3
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR Outer Header Removal: 0
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR FAR ID: 5
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR QER ID: 3
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g get precendence: 4278190080
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g get farId: 83886080
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g get outer header removal: 0
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g get ue ip: 10.60.0.3
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g get teid: 83886080
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g get gtpu ip: 10.100.200.2
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPDR add to kernel, dev: upfgtp, pdr id: 1280
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[524288], available[524287]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[91]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[90]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[89]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mHandle Create PDR
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPDR ID: 6
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPDR ID: 255
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPDI Source Interface: 1
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mUE IP Address IPv4: 10.60.0.3
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPDR FAR ID: 6
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPDR QER ID: 3
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR ID: 6
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR Precedence: 255
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g set PDI UE IP Address: 10.60.0.3
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR FAR ID: 6
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g set PDR QER ID: 3
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g get precendence: 4278190080
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g get farId: 100663296
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mgtp5g get ue ip: 10.60.0.3
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPDR add to kernel, dev: upfgtp, pdr id: 1536
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mIndex alloc successful, total capacity[524288], available[524286]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[88]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[87]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[86]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[252]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[85]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[251]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[84]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[85]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[252]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[251]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[84]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[85]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[252]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[251]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[84]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[85]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[252]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPFCP session establishment response built!
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0m[6] remote UDP TX-51 peer [10.100.200.14]:8805
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[256], available[251]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool alloc successful, total capacity[128], available[84]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Alloc Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[85]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[252]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0m[6] remote Commit  peer [10.100.200.14]:8805
+2022-09-15T14:31:24Z[36m [INFO][UPF][Util] [0m[PFCP] Session Establishment Response
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[86]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[87]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[88]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[89]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[90]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[91]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[92]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[93]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[94]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[95]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[96]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[97]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[98]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[99]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[100]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[101]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[102]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[103]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[104]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[105]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[106]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[107]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[108]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[109]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[110]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[111]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[112]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[113]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[114]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[8], available[8]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[16384]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[253]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[16], available[16]
+2022-09-15T14:31:24Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[8192]
+2022-09-15T14:31:24Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[254]
+2022-09-15T14:31:27Z[37m [TRAC][UPF][Util] [0m[Timer Debug] PfcpXactTimeout index 4 and event 3
+2022-09-15T14:31:27Z[37m [TRAC][UPF][Util] [0m[5] remote Holding Timeout for step 2 type 55 peer [10.100.200.14]:8805
+2022-09-15T14:31:27Z[37m [TRAC][UPF][Util] [0m[5] remote Delete Transaction for step 2 type 55 peer [10.100.200.14]:8805
+2022-09-15T14:31:27Z[37m [TRAC][UPF][Util] [0m[5] remote Delete  peer [10.100.200.14]:8805
+2022-09-15T14:31:27Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[115]
+2022-09-15T14:31:27Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:27Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[255]
+2022-09-15T14:31:27Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[1024], available[1023]
+2022-09-15T14:31:27Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[64], available[63]
+2022-09-15T14:31:27Z[37m [TRAC][UPF][Util] [0m[Timer Debug] PfcpXactTimeout index 5 and event 3
+2022-09-15T14:31:27Z[37m [TRAC][UPF][Util] [0m[6] remote Holding Timeout for step 2 type 51 peer [10.100.200.14]:8805
+2022-09-15T14:31:27Z[37m [TRAC][UPF][Util] [0m[6] remote Delete Transaction for step 2 type 51 peer [10.100.200.14]:8805
+2022-09-15T14:31:27Z[37m [TRAC][UPF][Util] [0m[6] remote Delete  peer [10.100.200.14]:8805
+2022-09-15T14:31:27Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[116]
+2022-09-15T14:31:27Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:27Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[256], available[256]
+2022-09-15T14:31:27Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[1024], available[1024]
+2022-09-15T14:31:27Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[64], available[64]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0m0 freed in pfcpXactPool[64] of PFCP Transaction
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[1024], available[1022]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mUPF - PFCP is finished in UPF termination
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[117]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[118]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[119]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[120]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[121]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[122]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[524288], available[524287]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[123]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[524288], available[524288]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[124]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[524288], available[524287]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[125]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[524288], available[524288]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[126]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[131072], available[131072]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mIndex Free successful, total capacity[65536], available[65536]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mGet VirtualDevice Name: upfgtp
+2022-09-15T14:31:38Z[36m [INFO][UPF][Util] [0mRemoving DNN routes
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[1024], available[1023]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[1024], available[1024]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mPacket receiver thread terminated
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[127]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mgtp5g device destroy success
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mUPF - Environment Init is finished in UPF termination
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mPacket receiver thread terminated
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[128]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mUPF - Thread is finished in UPF termination
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[127]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[128]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[64]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mUPF - Event Queue is finished in UPF termination
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mUPF - Epoll is finished in UPF termination
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[120]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[256]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[121]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[128]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[121]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[256]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[122]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[128]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[122]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[256]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[123]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[128]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[123]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[256]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[124]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[128]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[124]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[256]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[125]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[128]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[125]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[256]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[126]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[128]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[126]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[256]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[127]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[128]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[127]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[256]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[128]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[128]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[128], available[128]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mBuffer Free Size[256]
+2022-09-15T14:31:38Z[37m [DEBU][UPF][Util] [0mPool Free successful, total capacity[512], available[512]
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mUPF - Context is finished in UPF termination
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mLibrary - Socket Pool is finished in UPF termination
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mLibrary - Timer Pool is finished in UPF termination
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mLibrary - Thread is finished in UPF termination
+2022-09-15T14:31:38Z[37m [TRAC][UPF][Util] [0mLibrary - Bufblk Pool is finished in UPF termination
